@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_YpdHah": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Uximwd": {
+          "type": "heading",
+          "settings": {
+            "heading": "¡Oops! No pudimos encontrar esa página.",
+            "heading_size": "h1"
+          }
+        },
+        "text_CbAjWw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Parece que la página que buscas no está disponible en este momento. El enlace podría estar roto o la página podría haber sido eliminada.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_i9Twza": {
+          "type": "button",
+          "settings": {
+            "button_label": "Seguir comprando",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Uximwd",
+        "text_CbAjWw",
+        "button_i9Twza"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/support.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "imagen_primero",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "sin-superposición",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_YpdHah"
+  ]
+}

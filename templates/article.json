@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "content"
+      ],
+      "settings": {}
+    },
+    "newsletter_4pEPkm": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_CPgRXA": {
+          "type": "heading",
+          "settings": {
+            "heading": "¡No te pierdas ninguna oferta exclusiva!",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_GcEQNd": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Suscríbete a nuestro boletín y recibe las mejores promociones y novedades directamente en tu correo. ¡Entérate de descuentos irresistibles y lanzamientos exclusivos!<\/p>"
+          }
+        },
+        "email_form_NJ7JPb": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_CPgRXA",
+        "paragraph_GcEQNd",
+        "email_form_NJ7JPb"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter_4pEPkm"
+  ]
+}

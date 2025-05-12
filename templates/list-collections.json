@@ -1,0 +1,51 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "Colecciones",
+        "sort": "alfabético",
+        "image_ratio": "cuadrado",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    },
+    "newsletter_X33fMW": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_bCXYRJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>¡No te pierdas ninguna oferta exclusiva!<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_DH8ExG": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Suscríbete a nuestro boletín y recibe las mejores promociones y novedades directamente en tu correo. ¡Entérate de descuentos irresistibles y lanzamientos exclusivos!<\/p>"
+          }
+        },
+        "email_form_TcJBPL": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_bCXYRJ",
+        "paragraph_DH8ExG",
+        "email_form_TcJBPL"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter_X33fMW"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "esquema-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "esquema-1",
+        "image_ratio": "adaptar",
+        "image_shape": "predeterminado",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter_cQ7d8U": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_4EdGQ3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>¡No te pierdas ninguna oferta exclusiva!<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_JUrhei": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Suscríbete a nuestro boletín y recibe las mejores promociones y novedades directamente en tu correo. ¡Entérate de descuentos irresistibles y lanzamientos exclusivos!<\/p>"
+          }
+        },
+        "email_form_CTLwW3": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_4EdGQ3",
+        "paragraph_JUrhei",
+        "email_form_CTLwW3"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "newsletter_cQ7d8U"
+  ]
+}
